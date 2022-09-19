@@ -35,25 +35,32 @@
 
 %\useoutertheme{default}
 %\useinnertheme[shadow=true]{rounded}
-\xdefinecolor{tsinghua}{rgb}{0.0, 0.53, 0.74}  %RGB#82318E
-\setbeamercolor{footline}{bg=tsinghua}
-\setbeamercolor{frametitle}{bg=tsinghua,fg=white}
-\setbeamercolor{title}{bg=tsinghua}
+
+% 中山大学视觉形象识别系统暂行管理规定 https://www.docin.com/p-240585637.html
+\definecolor{sysugreen}{cmyk}{1.0,0,1.0,0.6} %100 0 100 60
+\definecolor{sysured}{cmyk}{0.3,1.0,1.0,0.5} %30 100 100 50
+\definecolor{sysublack}{cmyk}{0,0,0,1.0} % 0 0 0 100
+\definecolor{sysugreen2}{HTML}{005826}  %005826 from website
+
+\definecolor{basecolor}{cmyk}{1.0,0,1.0,0.6} %100 0 100 60
+\setbeamercolor{footline}{bg=basecolor}
+\setbeamercolor{frametitle}{bg=basecolor,fg=white}
+\setbeamercolor{title}{bg=basecolor}
 \setbeamerfont{frametitle}{size=\large}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{bibliography item}[text]
 \setbeamertemplate{caption}[numbered]
 
 \setbeamercolor{palette primary}{use=structure,fg=white,bg=structure.fg}
-\setbeamercolor{palette secondary}{use=structure,fg=white,bg=structure.fg!75!black}
-\setbeamercolor{palette tertiary}{use=structure,fg=white,bg=structure.fg!50!black}
-\setbeamercolor{palette quaternary}{fg=white,bg=structure.fg!50!black}
+\setbeamercolor{palette secondary}{use=structure,fg=white,bg=structure.fg!85!black}
+\setbeamercolor{palette tertiary}{use=structure,fg=white,bg=structure.fg!60!black}
+\setbeamercolor{palette quaternary}{fg=white,bg=structure.fg!60!black}
 %\setbeamercolor*{sidebar}{use=structure,bg=structure.fg}
 \setbeamercolor{titlelike}{parent=palette primary}
 
 %% try
-\setbeamercolor{block title}{bg=tsinghua,fg=white}
-\setbeamercolor*{block title example}{use={normal text,example text},bg=white,fg=tsinghua}
+\setbeamercolor{block title}{bg=basecolor,fg=white}
+\setbeamercolor*{block title example}{use={normal text,example text},bg=white,fg=basecolor}
 \setbeamercolor{fine separation line}{}
 \setbeamercolor{item projected}{fg=white}
 \setbeamercolor{palette sidebar primary}{use=normal text,fg=normal text.fg}
@@ -64,9 +71,9 @@
 \setbeamercolor{section in sidebar}{fg=brown}
 \setbeamercolor{section in sidebar shaded}{fg=grey}
 \setbeamercolor{separation line}{}
-\setbeamercolor{sidebar}{bg=tsinghua}
+\setbeamercolor{sidebar}{bg=basecolor}
 \setbeamercolor{sidebar}{parent=palette primary}
-\setbeamercolor{structure}{fg=tsinghua}
+\setbeamercolor{structure}{fg=basecolor}
 \setbeamercolor{subsection in sidebar}{fg=brown}
 \setbeamercolor{subsection in sidebar shaded}{fg=grey}
 \AtBeginSection[]{
