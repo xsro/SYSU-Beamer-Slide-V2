@@ -1,0 +1,56 @@
+\documentclass[]{SYSUslide1}
+%------------------------------------------------------
+%正式内容从此处开始
+%------------------------------------------------------
+\RequirePackage[]{overpic,pict2e,subfigure}
+\title[中山大学]{基于hello world 程序的研究}
+\subtitle{research on hello world program}
+\author[刘至憨]{刘甫翰}
+\advisor{韩福楼}
+\institute[航空航天学院]{
+  中山大学
+
+  航空航天学院
+}
+\date[深圳 \today]{深圳 \today}
+
+
+\begin{document}
+
+%创建标题页
+\frame{\titlepage}
+
+%创建目录页
+\setbeamertemplate{background} 
+{
+    \raggedright
+    \includegraphics[trim=-680pt 0 0 -200pt,height=0.8\paperheight]{pic/SYSULogo.pdf}
+}
+\begin{frame}
+\frametitle{主要内容}
+\tableofcontents
+\end{frame}
+%------------------------------------------------------------
+
+\section{序言}
+
+\begin{frame}
+    支持参考文献引用\cite{origin}
+    完全尾注引用\footfullcite{origin}
+    尾注引用\footcite{origin}
+\end{frame}
+
+\section{编译过程}
+
+\section{执行过程}
+
+\section*{致谢}  
+\begin{frame}
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+  \Huge{恳请批评指正}
+\end{beamercolorbox}
+\vfill
+\end{frame}
+\end{document}

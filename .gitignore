@@ -1,3 +1,5 @@
+*.fls
+*.bcf
 /*.pdf
 *.fdb_latexmk
 *.xdv
