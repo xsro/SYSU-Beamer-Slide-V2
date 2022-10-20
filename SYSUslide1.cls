@@ -43,7 +43,7 @@ doi=false,url=false,isbn=false]{biblatex}
 }
 
 %------------------------------------------------------------
-\logo{\includegraphics[width=.13\textwidth]{pic/SYSULogo.pdf}}
+% \logo{\includegraphics[width=.13\textwidth]{pic/SYSULogo.pdf}}
 
 % 设置段落首行缩进
 \setlength\parindent{20pt}
@@ -51,12 +51,13 @@ doi=false,url=false,isbn=false]{biblatex}
 
 %设置标题页
 \setbeamertemplate{title page}{%
-% \includegraphics[height=1.2cm]{pic/njupt.logo_full.pdf}\par
+\includegraphics[height=1cm]{pic/SYSULogo.pdf}\par
 \vspace*{10pt}
 \centering
   \songti\selectfont
     {%
     \usebeamerfont{title}
+        \heiti
         \inserttitle
     }\par
     {%
@@ -66,6 +67,7 @@ doi=false,url=false,isbn=false]{biblatex}
     {%
     \color{sysugreen}
         \rule{\linewidth}{1pt}
+        \vspace*{0.5cm}
     }\par\medskip
     
     {%
