@@ -5,8 +5,8 @@
 \RequirePackage[]{overpic,pict2e,subfigure}
 \title[中山大学]{基于hello world 程序的研究}
 \subtitle{research on hello world program}
-\author[刘至憨]{刘甫翰}
-\advisor{韩福楼}
+\author[皮艾迪]{皮艾迪、李倩茹、马鹏程}
+\advisor{范巴可}
 \institute[航空航天学院]{
   中山大学
 
@@ -21,11 +21,6 @@
 \frame{\titlepage}
 
 %创建目录页
-\setbeamertemplate{background} 
-{
-    \raggedright
-    \includegraphics[trim=-680pt 0 0 -200pt,height=0.8\paperheight]{pic/SYSULogo.pdf}
-}
 \begin{frame}
 \frametitle{主要内容}
 \tableofcontents
@@ -34,15 +29,26 @@
 
 \section{序言}
 
-\begin{frame}
-    支持参考文献引用\cite{origin}
-    完全尾注引用\footfullcite{origin}
-    尾注引用\footcite{origin}
+\begin{frame}[fragile]
+    本ppt使用biblatex支持参考文献引用.
+    可以使用\verb|\cite{origin}|来生成引用，如\cite{origin}。
+    同时可以在尾注注明文献，使用方法如\verb|\footfullcite{origin}|，效果为\footfullcite{origin}。
+    有时也会使用\verb|\footcite{origin}|来在脚注中生成参考文献的标号,如\footcite{origin}.
+
+    文末使用\verb|\printbibliography|可以打印参考文献页。
+    注意beamer中使用\verb|\verb|命令是不推荐的，使用时必须在frame中加上选项"fragile"。
 \end{frame}
+
+\section{研究对象与目的}
+
 
 \section{编译过程}
 
 \section{执行过程}
+
+\begin{frame}[allowframebreaks]
+    \printbibliography[]
+\end{frame}
 
 \section*{致谢}  
 \begin{frame}

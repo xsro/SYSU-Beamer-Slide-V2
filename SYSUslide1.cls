@@ -17,16 +17,17 @@
 \definecolor{sysured}{cmyk}{0.3,1.0,1.0,0.5} %30 100 100 50
 \definecolor{sysublack}{cmyk}{0,0,0,1.0} % 0 0 0 100
 \definecolor{sysugreen2}{HTML}{005826}  %005826 from website
+\definecolor{sysugreenl}{HTML}{087236}  %取自网站https://graduate.sysu.edu.cn/中按钮的颜色
 
-
-%使用南邮的配色设置内容
-\setbeamercolor*{palette primary}{bg=sysugreen2}
+% %使用学校配色设置内容
+\setbeamercolor*{palette primary}{bg=sysugreen2!50!white}
 \setbeamercolor*{palette secondary}{bg=sysured, fg = white}
-\setbeamercolor*{palette tertiary}{bg=sysugreen, fg = white}
+\setbeamercolor*{palette tertiary}{bg=sysugreen, fg = sysugreen!20!white}
 \setbeamercolor*{titlelike}{fg=sysugreen}
-\setbeamercolor*{title}{bg=sysugreen, fg = white}
+\setbeamercolor*{title}{bg=sysugreenl, fg = white}
 \setbeamercolor*{item}{fg=sysugreen}
 \setbeamercolor*{caption name}{fg=sysugreen}
+
 \usefonttheme{professionalfonts}
 
 % 增加参考文献引用支持

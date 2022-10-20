@@ -1,8 +1,16 @@
+# 中山大学Beamer模板
+
+
+- `SYSUslide` 基于[大连理工大学模板](https://github.com/fuujiro/DLUT-Beamer-Slide-V2/) [预览](https://github.com/xsro/SYSU-Beamer-Slide-V2/releases/download/v0.1/slide-v0.1.pdf)
+- `SYSUslide1` 基于ctexbeamer只做了少许改动， [预览]
+
+---
+
+大连理工大学模板原来README
+
 # DLUT-Beamer-Theme
 
 Hurry up STAR and FORK this Repo, which is a free Gospel of dlut students, is the visual enjoyment and aesthetic impact for teachers. Using this template, you will easily enter the winner group of lives. And any report or defence will bow down on your crumpled jeans/garments from now on.
-
-[click here to preview](https://github.com/xsro/SYSU-Beamer-Slide-V2/releases/download/v0.1/slide-v0.1.pdf)
 
 ### This template is suitable for:
 - Undergraduate, postgraduate and doctoral thesis/dissertation defense
