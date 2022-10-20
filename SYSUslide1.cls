@@ -20,11 +20,11 @@
 \definecolor{sysugreenl}{HTML}{087236}  %取自网站https://graduate.sysu.edu.cn/中按钮的颜色
 
 % %使用学校配色设置内容
-\setbeamercolor*{palette primary}{bg=sysugreen2!50!white}
+\setbeamercolor*{palette primary}{bg=sysugreenl}
 \setbeamercolor*{palette secondary}{bg=sysured, fg = white}
 \setbeamercolor*{palette tertiary}{bg=sysugreen, fg = sysugreen!20!white}
 \setbeamercolor*{titlelike}{fg=sysugreen}
-\setbeamercolor*{title}{bg=sysugreenl, fg = white}
+\setbeamercolor*{title}{bg=sysugreen, fg = white}
 \setbeamercolor*{item}{fg=sysugreen}
 \setbeamercolor*{caption name}{fg=sysugreen}
 

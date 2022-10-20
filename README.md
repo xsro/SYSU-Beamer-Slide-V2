@@ -1,8 +1,8 @@
-# 中山大学Beamer模板
+# 简易中山大学Beamer模板
 
 
-- `SYSUslide` 基于[大连理工大学模板](https://github.com/fuujiro/DLUT-Beamer-Slide-V2/) [预览](https://github.com/xsro/SYSU-Beamer-Slide-V2/releases/download/v0.1/slide-v0.1.pdf)
-- `SYSUslide1` 基于ctexbeamer只做了少许改动， [预览]
+- `SYSUslide` 基于[大连理工大学模板](https://github.com/fuujiro/DLUT-Beamer-Slide-V2/) ，[在release中下载](https://github.com/xsro/SYSU-Beamer-Slide-V2/releases/download/v0.2/SYSUslide0demo.pdf)
+- `SYSUslide1` 基于ctexbeamer只做了少许改动， [在release中下载](https://github.com/xsro/SYSU-Beamer-Slide-V2/releases/download/v0.2/SYSUslide1demo.pdf)
 
 ---
 
